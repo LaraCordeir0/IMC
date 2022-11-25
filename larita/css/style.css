@@ -1,0 +1,141 @@
+:root {
+    --color-black: #161623;
+    --color-white: #f1f1f1;
+    --align-items: center;
+    --text-align: center;
+}
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #365c4f, #141412);
+    padding: 15px;
+    color: #f1f1f1;
+    font-size: 19px;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+img#logo-imc {
+    width: 65px;
+}
+
+a {
+    position: relative;
+    letter-spacing: 0.5px;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    background-color: var(--color-white);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.7s all;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+a {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff8f8;
+    padding: 0.3em;
+}
+
+ #imagem-saude {
+    display: inline;
+    margin-top: 4.5em;
+    width: 650px;
+    height: 420px;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+section.section-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: var(--align-items);
+    text-align: var(--text-align);
+    margin: 8em;
+}
+
+h2 {
+    color: #365c4f;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+div > p {
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+div.textos-principais {
+    margin: 35px;
+    padding: 20px;
+}
+
+h3{
+    color: #365c4f;
+}
+
+#img1 {
+    width: 800px;
+    height: 250px;
+}
+
+#bloco {
+    font-size: 30px;
+    align-items: var(--align-items);
+    text-align: var(--text-align);
+    list-style: none;
+    margin-top: 60px; 
+}
+
+button {
+    border: 2px solid #f1f1f1;
+    margin: 1em 0 1em 0;
+    padding: 6px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 17px;
+}
+
+footer#rodape {
+    align-items: var(--align-items);
+    text-align: var(--text-align);
+    border-top: 2px solid #222;
+    margin-top: 2em;
+    text-transform: capitalize;
+}
+
+footer#rodape > p {
+    color: #365c4f;
+    padding-top: 15px;
+    font-size: 23px;
+    font-weight: bold;
+}

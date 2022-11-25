@@ -1,0 +1,47 @@
+header{
+    background-color: darkcyan;
+    height: 140px;
+    color: rgb(241, 241, 241);
+    font-size: 50PX;
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+#sobre {
+    font-size: 28px;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid ;
+}
+
+p{
+    margin-top: 5px;
+}
+.img{
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(211, 233, 225);
+    font-size: large;
+}
+
+h3{
+    color: rgb(54, 92, 79);
+}
+
+#saude{
+    text-align: center;
+    align-items: center;
+    margin: 0 500px 0 500px;
+}
+
+#bloco {
+    font-size: 21px;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-top: 60px; 
+}
